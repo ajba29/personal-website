@@ -1,0 +1,138 @@
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+span{
+    text-align: center;
+    vertical-align: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.upper-top{
+    background-color: aliceblue;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: right;
+    height: 100px;
+    
+}
+
+.top{
+    background-color: aliceblue;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.lower-top{
+    background-color: aliceblue;
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: left;
+    height: 100px;
+
+}
+
+.upper-cloud{
+    height: 100px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.lower-cloud{
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mid{
+    background-color: aliceblue;
+    display: flex;
+    height: auto;
+    
+}
+
+.bot{
+    height: 200px;
+    background-color: white;
+}
+
+.dots{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sidetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagcon{
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+}
+
+.skill-image{
+    height: 200px;
+}
+
+#mtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+
+    text-align: middle;
+}
+
+#icn{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item{
+    margin: auto;
+}
+
+#button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
